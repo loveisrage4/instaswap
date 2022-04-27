@@ -248,7 +248,7 @@ class Swapper:
     def editUsername(self,username):
         self.setProxy()
         data = {'username':username}
-        return self.SendRequest('https://i.instagram.com/api/v1/accounts/edit_profile/', data)
+        return self.SendRequest("https://i.instagram.com/api/v1/accounts/set_username/", data)
 
     def editWebPost(self,username):
         self.setProxy()

@@ -254,7 +254,7 @@ class Swapper:
         self.setProxy()
         webhead = {'HOST':'www.instagram.com',  'KeepAlive':'True', 'user-agent':generate_user_agent(), 'Cookie':f"sessionid={self.sessionid}", 'Accept':'*/*', 'ContentType':'application/x-www-form-urlencoded', 'X-Requested-With':'XMLHttpRequest', 'X-IG-App-ID':'936619743392459', 'X-Instagram-AJAX':'missing', 'X-CSRFToken':'missing', 'Accept-Language':'en-US,en;q=0.9'}
         data={"first_name": '', "email": self.email, "username": username, "phone_number": self.phone, "biography": self.bio, "external_url": "https://discord.gg/unbans", "chaining_enabled": "on"}
-        return self.SendRequest('https://i.instagram.com/api/v1/accounts/edit_profile/', data=data,headers=webhead)
+        return self.SendRequest('https://www.instagram.com/accounts/edit/', data=data,headers=webhead)
 
     def stop(self):
         check = self.r.get(f"https://www.instagram.com/{self.target}/?__a=1")

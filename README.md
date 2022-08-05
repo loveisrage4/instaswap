@@ -1,6 +1,6 @@
 # Instagram-Swap-Turbo
 
-# UPDATED - https://github.com/88um/instaswap
+# UPDATED - https://github.com/88um/igswap
 
 Swaps/Turbos any unlocked username
 

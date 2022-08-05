@@ -1,5 +1,7 @@
 # Instagram-Swap-Turbo
 
+# UPDATED - https://github.com/88um/instaswap
+
 Swaps/Turbos any unlocked username
 
 **Login, choose your target, set your number of threads, and sit back.**

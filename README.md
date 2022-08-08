@@ -2,6 +2,8 @@
 
 # UPDATED - https://github.com/88um/igswap
 
+[![Github All Releases](https://img.shields.io/github/downloads/88um/igswap/total.svg)]()
+
 Swaps/Turbos any unlocked username
 
 **Login, choose your target, set your number of threads, and sit back.**

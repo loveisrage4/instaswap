@@ -257,7 +257,7 @@ class Swapper:
         return self.SendRequest('https://www.instagram.com/accounts/edit/', data=data,headers=webhead)
 
     def stop(self):
-        check = self.r.get(f"https://www.instagram.com/{self.target}/?__a=1")
+        check = self.r.get(f"https://www.instagram.com/{self.target}/?__a=1&__d=dis")
         if check.status_code != 404 and self.claimed:
             print(f'\n[{green}+{reset}] Successfully Swapped >> @{self.target} | Method #{self.method}')
             self.disc()
